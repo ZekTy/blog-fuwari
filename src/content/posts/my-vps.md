@@ -11,7 +11,7 @@ draft: false
 ## 🛠️ 服务器基础配置
 
 :::note[硬件与环境]
-* **CPU**: AMD EPYC 9575F 64-Core Processor (x2) 
+* **CPU**: AMD Ryzen 9 9950X 16-Core Processor (x8) 
 * **内存**: 4GB DDR5 6400mhz
 * **OS**: **Debian 13**
 
@@ -49,6 +49,9 @@ draft: false
 - [x] **rustdesk**
   > 开源远程控制，支持自建服务器
   ::github{repo="rustdesk/rustdesk"}
+- [x] **nexus terminal**
+  > 一款现代化、功能丰富的 Web SSH / RDP / VNC 客户端
+  ::github{repo="Heavrnl/nexus-terminal"}
 
 ---
 
