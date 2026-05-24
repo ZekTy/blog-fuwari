@@ -8,7 +8,7 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "Blog",
+	title: "Inklazy's blog",
 	subtitle: "个人博客",
 	lang: "zh_CN", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
@@ -40,7 +40,21 @@ export const siteConfig: SiteConfig = {
 };
 
 export const navBarConfig: NavBarConfig = {
-	links: [LinkPreset.Home, LinkPreset.Archive, LinkPreset.About],
+	links: [
+		LinkPreset.Home,
+		LinkPreset.Archive,
+		{
+			name: "GitHub",
+			url: "https://github.com/ZekTy",
+			external: true,
+		},
+		{
+			name: "探针",
+			url: "https://dstatus.inklazy.com/",
+			external: true,
+		},
+		LinkPreset.About,
+	],
 };
 
 export const profileConfig: ProfileConfig = {
